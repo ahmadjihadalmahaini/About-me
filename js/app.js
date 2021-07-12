@@ -1,6 +1,3 @@
-
-
-
 'use strict';
 let score = 0;
 
@@ -8,7 +5,7 @@ let score = 0;
 
 
 function qOne() {
-  let answerOne = prompt('Do you know someone called ahmad?');
+  let answerOne = prompt('Do you know someone called Ahmad?');
   answerOne = answerOne.toLowerCase();
   switch (answerOne) {
     case 'yes':
@@ -26,7 +23,6 @@ function qOne() {
 
   }
 }
-qOne ();
 
 function qTwo() {
   let answerTwo = prompt('Do you think I am doing well with software development ?');
@@ -49,7 +45,7 @@ function qTwo() {
 }
 
 
-qTwo();
+
 
 
 
@@ -74,7 +70,7 @@ function qThree() {
   }
 }
 
-qThree();
+
 
 
 
@@ -100,9 +96,8 @@ function qFour() {
       break;
 
   }
-
 }
-qFour();
+
 function qFive() {
 
   let aboutMe = prompt('Do you think that I am an alien?');
@@ -124,7 +119,7 @@ function qFive() {
 
   }
 }
-qFive();
+
 function qSix() {
   out: for (let i = 4; i >= 1; --i) {
 
@@ -166,7 +161,7 @@ function qSix() {
   }
 }
 
-qSix();
+
 
 
 
@@ -201,8 +196,6 @@ function qSeven() {
 
 
   }
-  qSeven();
-
 
   //// console.log(`you have a score of ${score} /7`);
 
